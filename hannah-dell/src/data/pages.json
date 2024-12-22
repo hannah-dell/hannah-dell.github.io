@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "Talks",
+    "data": true
+  },
+  {
+    "id": 1,
+    "name": "Teaching",
+    "data": true
+  },
+  {
+    "id": 2,
+    "name": "Travel",
+    "data": true
+  }
+]
