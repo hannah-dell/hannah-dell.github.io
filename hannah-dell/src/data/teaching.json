@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Geometry (MATH10074)",
+    "courseUrl": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath10074.htm",
+    "date": "2024-09-01",
+    "dateText": "2023-2024 Semester 1",
+    "location": "Edinburgh",
+    "id": 0
+  },
+  {
+    "name": "MathsBase",
+    "courseUrl": "https://teaching.maths.ed.ac.uk/main/undergraduate/studies/facilities/mathsbase-mathshub",
+    "date": "2024-09-01",
+    "dateText": "2023-2024 Semester 1",
+    "location": "Edinburgh",
+    "id": 1
+  },
+  {
+    "name": "Count Me In (Tutor)",
+    "courseUrl": "https://sites.google.com/view/count-me-in",
+    "date": "2024-07-01",
+    "dateText": "2023 Summer",
+    "location": "Edinburgh",
+    "id": 2
+  },
+  {
+    "name": "Honours Algebra (MATH10069)",
+    "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath10069.htm",
+    "date": "2023-01-01",
+    "dateText": "2022-2023 Semester 2",
+    "location": "Edinburgh",
+    "id": 3
+  },
+  {
+    "name": "Accelerated Proofs and Problem Solving",
+    "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath08071.htm",
+    "date": "2022-09-01",
+    "dateText": "2022-2023 Semester 1",
+    "location": "Edinburgh",
+    "id": 4
+  },
+  {
+    "name": "Geometry (MATH10074)",
+    "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath10074.htm",
+    "date": "2022-09-01",
+    "dateText": "2022-2023 Semester 1",
+    "location": "Edinburgh",
+    "id": 5
+  },
+  {
+    "name": "Honours Algebra (MATH10069)",
+    "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath10069.htm",
+    "date": "2022-01-01",
+    "dateText": "2021-2022 Semester 2",
+    "location": "Edinburgh",
+    "id": 6
+  },
+  {
+    "name": "Engineering Mathematics 1a (MATH08074)",
+    "courseUrl": "http://www-test.drps.ed.ac.uk/20-21/dpt/cxmath08074.htm",
+    "date": "2021-09-01",
+    "dateText": "2021-2022 Semester 1",
+    "location": "Edinburgh",
+    "id": 7
+  },
+  {
+    "name": "Honours Analysis - Skills (MATH10068)",
+    "courseUrl": "http://www-test.drps.ed.ac.uk/20-21/dpt/cxmath10068.htm",
+    "date": "2021-09-01",
+    "dateText": "2021-2022 Semester 1",
+    "location": "Edinburgh",
+    "id": 8
+  },
+  {
+    "name": "Fundamentals of Pure Mathematics (MATH08064)",
+    "courseUrl": "http://www-test.drps.ed.ac.uk/20-21/dpt/cxmath08064.htm",
+    "date": "2020-01-01",
+    "dateText": "2020-2021 Semester 2",
+    "location": "Edinburgh",
+    "id": 9
+  },
+  {
+    "name": "MathsBase",
+    "courseUrl": "https://teaching.maths.ed.ac.uk/main/undergraduate/studies/facilities/mathsbase-mathshub",
+    "date": "2020-01-01",
+    "dateText": "2020-2021 Semester 2",
+    "location": "Edinburgh",
+    "id": 10
+  }
+]
