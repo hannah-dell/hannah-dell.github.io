@@ -1,6 +1,6 @@
 import data from "../data/teaching.json";
 
-export default function Talks() {
+export default function Teaching() {
 
   data.sort((a, b) => new Date(b.date) - new Date(a.date));
 

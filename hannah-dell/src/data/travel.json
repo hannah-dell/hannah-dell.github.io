@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Derived Categories, Moduli Spaces and Counting Invariants",
+    "url": "https://sites.google.com/view/derivedfrg/events/imperial-2023",
+    "location": "Imperial College London",
+    "date": "2023-07-01",
+    "id": 0
+  },
+  {
+    "name": "Women in Number Theory and Geometry",
+    "url": "https://www.ucl.ac.uk/~ucahbar/wings.html",
+    "location": "Chesterfield",
+    "date": "2023-04-01",
+    "id": 1
+  },  
+  {
+    "name": "Hyperkähler quotients, singularities, and quivers",
+    "url": "https://scgp.stonybrook.edu/archives/35509",
+    "location": "SCGP, Stony Brook",
+    "date": "2023-01-01",
+    "id": 2
+  },  
+  {
+    "name": "Quivers, Clusters, Moduli and Stability",
+    "url": "https://www.cantab.net/users/t.logvinenko/2023-qcms/index.html",
+    "location": "Oxford",
+    "date": "2023-01-01",
+    "id": 3
+  },  
+  {
+    "name": "Workshop on Singularities and Mirror Symmetry",
+    "url": "https://sites.google.com/view/singularities-mirrors/home",
+    "location": "Glasgow",
+    "date": "2022-12-01",
+    "id": 4
+  },  
+  {
+    "name": "V BrAG Meeting",
+    "url": "https://sites.google.com/site/bragmeeting/5th-brag-meeting",
+    "location": "Imperial College London",
+    "date": "2022-09-01",
+    "id": 5
+  },  
+  {
+    "name": "CIME School on HyperKähler manifolds and related geometries",
+    "url": "https://sites.google.com/view/cime-cetraro-hk-summer-school/home?authuser=0",
+    "location": "Cetraro",
+    "date": "2022-08-01",
+    "id": 6
+  },  
+  {
+    "name": "CIRM School on Moduli Spaces and Stability Conditions",
+    "url": "https://sites.google.com/fbk.eu/cirm/conferences-2021",
+    "location": "Trento",
+    "date": "2022-06-01",
+    "id": 7
+  },  
+  {
+    "name": "GAeL XXIX",
+    "url": "https://school-iag2020.math.cnrs.fr/",
+    "location": "Paris",
+    "date": "2022-05-01",
+    "id": 8
+  }, 
+  {
+    "name": "Spring School on Invariants in Algebraic Geometry",
+    "url": "https://school-iag2020.math.cnrs.fr/",
+    "location": "Dijon",
+    "date": "2022-05-01",
+    "id": 9
+  },  
+  {
+    "name": "Third Udine Algebraic Geometry School on Derived Categories of Fano Varieties, Hyperkähler Varieties and their Period Maps",
+    "url": "https://derived.dmif.uniud.it/index.html",
+    "location": "Online/Udine",
+    "date": "2021-11-01",
+    "id": 10
+  }, 
+  {
+    "name": "43rd Autumn School in Algebraic Geometry on K3 Categories and Hyperkähler Moduli Spaces",
+    "url": "https://www.mimuw.edu.pl/~marysia/autumnschool21.html",
+    "location": "Online",
+    "date": "2021-09-01",
+    "id": 11
+  }, 
+  {
+    "name": "GAeL XXVIII",
+    "url": "https://sites.google.com/view/gaelxxviii",
+    "location": "Online",
+    "date": "2021-07-01",
+    "id": 12
+  },  
+  {
+    "name": "BMC-BAMC Glasgow",
+    "url": "https://sites.google.com/view/bmcbamc2021/programme?authuser=0",
+    "location": "Online",
+    "date": "2021-04-01",
+    "id": 13
+  }, 
+  {
+    "name": "COW/EmSG/GLEN Joint Summer School",
+    "url": "https://cow.alggeo.xyz/summerschool2020.html",
+    "location": "Online",
+    "date": "2020-09-01",
+    "id": 14
+  }
+]
