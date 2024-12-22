@@ -4,6 +4,8 @@ import {
   Route,
 } from 'react-router-dom';
 
+import { Helmet } from "react-helmet";
+
 import Hero from "./components/Hero";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
@@ -17,12 +19,53 @@ export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Hero />
+      <Hero homeName="Home"/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/talks" element={<Talks />} />
-        <Route path="/teaching" element={<Teaching />} />
-        <Route path="/travel" element={<Travel />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Helmet>
+                <title>Home - Hannah Dell</title>
+              </Helmet>
+              <Home />
+            </>
+          }
+        />
+        <Route 
+          path="/talks" 
+          element={
+            <>
+              <Helmet>
+                <title>Talks - Hannah Dell</title>
+              </Helmet>
+              <Talks />
+            </>
+          }
+        />
+        <Route 
+          path="/teaching" 
+          element={
+            <>
+              <Helmet>
+                <title>Teaching - Hannah Dell</title>
+              </Helmet>
+              <Teaching />
+            </>
+          }
+        />
+        <Route 
+          path="/travel" 
+          element={
+            <>
+              <Helmet>
+                <title>Travel - Hannah Dell</title>
+              </Helmet>
+              <Travel />
+            </>
+          }
+        />
+
       </Routes>
     </BrowserRouter>
   )

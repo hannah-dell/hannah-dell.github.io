@@ -45,7 +45,7 @@ export default function Home() {
       <img 
         src={photo} 
         alt="Hannah Dell" 
-        className="w-[310px] h-[416px] rounded-md"  
+        className="w-[310px] h-[416px] img-me"  
       />
     </div>
   )
