@@ -13,17 +13,10 @@ export default function Travel() {
         <td>
           {item.url ? (
             <>
-              <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
+              <a className="link" href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
             </>
           ) : (
             item.name
-          )}
-        </td>
-        <td>
-          {item.seminarUrl ? (
-            <a href={item.seminarUrl} target="_blank" rel="noopener noreferrer">{item.seminarName}</a>
-          ) : (
-            item.seminarUrl
           )}
         </td>
         <td>

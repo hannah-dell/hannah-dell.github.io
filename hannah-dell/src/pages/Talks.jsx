@@ -8,7 +8,7 @@ export default function Talks() {
         <td>
           {item.notes ? (
             <>
-              {item.name} <a href={`/notes/${item.notes}`} target="_blank" rel="noopener noreferrer">(notes)</a>
+              {item.name} <a className="link" href={`/notes/${item.notes}`} target="_blank" rel="noopener noreferrer">(notes)</a>
             </>
           ) : (
             item.name
@@ -19,9 +19,9 @@ export default function Talks() {
         </td>
         <td>
           {item.seminarUrl ? (
-            <a href={item.seminarUrl} target="_blank" rel="noopener noreferrer">{item.seminarName}</a>
+            <a className="link" href={item.seminarUrl} target="_blank" rel="noopener noreferrer">{item.seminarName}</a>
           ) : (
-            item.seminarUrl
+            item.seminarName
           )}
         </td>
         <td>
