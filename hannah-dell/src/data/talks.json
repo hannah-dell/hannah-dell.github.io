@@ -1,7 +1,7 @@
 [
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-10",
+    "date": "2023-10-01",
     "seminarName": "Quantum Mechanics Research Seminar",
     "seminarUrl": "https://www.sdu.dk/en/forskning/qm/events",
     "location": "Odense",
@@ -10,7 +10,7 @@
   {
     "name": "Stability conditions on free abelian quotients",
     "notes": "Final_GLEN_Liverpool_notes.pdf",
-    "date": "2023-09",
+    "date": "2023-09-01",
     "seminarName": "GLEN Workshop: Stability Conditions",
     "seminarUrl": "https://pcwww.liv.ac.uk/~arizzard/GLEN/GLEN2023.html",
     "location": "Liverpool",
@@ -18,7 +18,7 @@
   },
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-08",
+    "date": "2023-08-01",
     "seminarName": "Queer in Number Theory and Geometry",
     "seminarUrl": "https://quings-workshop.github.io/2023/",
     "location": "Norfolk",
@@ -26,14 +26,14 @@
   },
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-06",
+    "date": "2023-06-01",
     "seminarName": "Algebraic Geometry Seminar",
     "location": "Lille",
     "id": 3
   },
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-06",
+    "date": "2023-06-01",
     "seminarName": "Junior Geometry Seminar",
     "seminarUrl": "https://talks.cam.ac.uk/show/index/48314",
     "location": "Cambridge",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-04",
+    "date": "2023-04-01",
     "seminarName": "WINGS",
     "seminarUrl": "https://www.ucl.ac.uk/~ucahbar/wings.html",
     "location": "Chesterfield",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-03",
+    "date": "2023-03-01",
     "seminarName": "Algebra Seminar",
     "seminarUrl": "https://emine-yildirim.github.io/seminar.html",
     "location": "Leeds",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Stability conditions on free abelian quotients",
-    "date": "2023-03",
+    "date": "2023-03-01",
     "seminarName": "CALF Seminar",
     "seminarUrl": "https://calfseminar.weebly.com/",
     "location": "Nottingham",
@@ -66,7 +66,7 @@
   {
     "name": "Geometric stability conditions on quotients",
     "notes": "glasgow_-_geometric_stability_talk.pdf",
-    "date": "2022-12",
+    "date": "2022-12-01",
     "seminarName": "Workshop on Singularities and Mirror Symmetry",
     "seminarUrl": "https://sites.google.com/view/singularities-mirrors/home",
     "location": "Glasgow",
@@ -74,7 +74,7 @@
   },
   {
     "name": "Bridgeland stability manifolds via group actions",
-    "date": "2022-07",
+    "date": "2022-07-01",
     "seminarName": "Hodge Club",
     "seminarUrl": "https://hodge.maths.ed.ac.uk/tiki/Hodge+Club",
     "location": "Edinburgh",
@@ -83,7 +83,7 @@
   {
     "name": "Introduction to Bridgeland Stability Conditions",
     "notes": "GEARS_talk_notes_-_compressed.pdf",
-    "date": "2021-12",
+    "date": "2021-12-01",
     "seminarName": "GEARS Seminar",
     "seminarUrl": "https://sites.google.com/view/gears-seminar/",
     "location": "Edinburgh/Online",
@@ -92,7 +92,7 @@
   {
     "name": "Stability conditions on Beauville-type surfaces",
     "notes": "stability_on_beauville-type_surfaces_talk_notes.svg",
-    "date": "2021-11",
+    "date": "2021-11-01",
     "seminarName": "Derived Work in Progress",
     "seminarUrl": "https://hodge.maths.ed.ac.uk/tiki/DeWIP",
     "location": "Edinburgh/Online",
@@ -101,7 +101,7 @@
   {
     "name": "Stability Manifolds of Varieties with Finite Albanese Morphism",
     "notes": "Stability_Manifolds_of_Varieties_with_Finite_Albanese_Morphisms.pdf",
-    "date": "2021-06",
+    "date": "2021-06-01",
     "seminarName": "Internal working Seminar",
     "location": "Online",
     "id": 12
@@ -109,7 +109,7 @@
   {
     "name": "Counting Conics and Clemens' Conjecture",
     "notes": "Counting_Conics_and_Clemens-_Conjecture.pdf",
-    "date": "2021-02",
+    "date": "2021-02-01",
     "seminarName": "Hodge Club",
     "seminarUrl": "https://hodge.maths.ed.ac.uk/tiki/Hodge+Club",
     "location": "Online",
@@ -118,7 +118,7 @@
   {
     "name": "Grassmannians",
     "notes": "Grassmannians_final.pdf",
-    "date": "2021-02",
+    "date": "2021-02-01",
     "seminarName": "GIaMS Examples Seminar",
     "seminarUrl": "https://www.glams.org/2020-cohort/examples-seminar",
     "location": "Online",
@@ -127,7 +127,7 @@
   {
     "name": "Triangles, Exactness and Derived Functors",
     "notes": "Lecture_2_-_Triangles__Exactness__and_Derived_Functors.pdf",
-    "date": "2020-10",
+    "date": "2020-10-01",
     "seminarName": "Warwick Derived Categories Reading Seminar",
     "location": "Online",
     "id": 15

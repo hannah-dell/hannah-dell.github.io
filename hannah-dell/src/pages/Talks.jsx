@@ -15,7 +15,7 @@ export default function Talks() {
           )}
         </td>
         <td>
-          {item.date}
+          {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
         </td>
         <td>
           {item.seminarUrl ? (
