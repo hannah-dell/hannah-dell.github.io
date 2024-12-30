@@ -12,7 +12,7 @@ export default function Navbar() {
   const headingNames = (
     <ul className={`sm:flex ${isHamburgerOpen ? "block" : "hidden"}`}>
       {headings.map(heading => (
-        <li key={heading.id} className="px-2">
+        <li key={heading.id} className="pr-4 py-2">
           <Link 
             to={`${heading.name.toLowerCase()}`}
             className="text-headingYellow no-underline hover:text-hoverYellow transition duration-300"
@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="body-container mx-auto flex items-center justify-between sm:justify-start">
           <Link
             to="/"
-            className="text-xl text-headingYellow no-underline hover:text-hoverYellow transition duration-300 pr-4"
+            className="text-xl text-headingYellow no-underline hover:text-hoverYellow transition duration-300 pr-4 py-2"
           >
             {homeName}
           </Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
 
       {/* Headings with hamburger */}
       <div
-        className={`sm:hidden overflow-hidden transition-all duration-500 ease-in-out ${isHamburgerOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        className={`body-container sm:hidden overflow-hidden transition-all duration-500 ease-in-out ${isHamburgerOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         {headingNames}
