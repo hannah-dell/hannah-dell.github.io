@@ -1,17 +1,13 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Hero from "./components/Hero";
-import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
-import Talks from "./pages/Talks";
-import Teaching from "./pages/Teaching";
-import Travel from "./pages/Travel";
+import Hero from './components/Hero';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import Talks from './pages/Talks';
+import Teaching from './pages/Teaching';
+import Travel from './pages/Travel';
 
 export default function App() {
   return (
@@ -23,9 +19,11 @@ export default function App() {
           path="/"
           element={
             <>
-              <Helmet>
-                <title>Home - Hannah Dell</title>
-              </Helmet>
+              <HelmetProvider>
+                <Helmet>
+                  <title>Home - Hannah Dell</title>
+                </Helmet>
+              </HelmetProvider>
               <Home />
             </>
           }
@@ -34,9 +32,11 @@ export default function App() {
           path="/talks" 
           element={
             <>
-              <Helmet>
-                <title>Talks - Hannah Dell</title>
-              </Helmet>
+              <HelmetProvider>
+                <Helmet>
+                  <title>Talks - Hannah Dell</title>
+                </Helmet>
+              </HelmetProvider>
               <Talks />
             </>
           }
@@ -45,9 +45,11 @@ export default function App() {
           path="/teaching" 
           element={
             <>
-              <Helmet>
-                <title>Teaching - Hannah Dell</title>
-              </Helmet>
+              <HelmetProvider>
+                <Helmet>
+                  <title>Teaching - Hannah Dell</title>
+                </Helmet>
+              </HelmetProvider>
               <Teaching />
             </>
           }
@@ -56,9 +58,11 @@ export default function App() {
           path="/travel" 
           element={
             <>
-              <Helmet>
-                <title>Travel - Hannah Dell</title>
-              </Helmet>
+              <HelmetProvider>
+                <Helmet>
+                  <title>Travel - Hannah Dell</title>
+                </Helmet>
+              </HelmetProvider>
               <Travel />
             </>
           }
