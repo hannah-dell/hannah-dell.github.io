@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import headings from '../data/pages.json';
 
-
 export default function Navbar() {
 
+  const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+  
   const homeName = "Hannah Dell";
 
   const headingNames = (
@@ -35,7 +37,7 @@ export default function Navbar() {
         <div className="sm:hidden flex items-center">
           <button 
             className="text-headingYellow hover:text-hoverYellow transition duration-300"
-            onClick={() => console.log("You clicked me!")}
+            onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
