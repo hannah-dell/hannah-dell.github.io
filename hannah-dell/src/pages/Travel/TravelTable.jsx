@@ -14,7 +14,7 @@ export default function Travel() {
         <td>
           {item.url ? (
             <>
-              <a className="link" href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
+              <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
             </>
           ) : (
             item.name
