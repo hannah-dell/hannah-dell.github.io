@@ -1,12 +1,17 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 import headings from '../data/pages.json';
 
 export default function Navbar() {
 
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
-  
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsHamburgerOpen(false);
+  }, [location]);
+
   const homeName = "Hannah Dell";
 
   const headingNames = (
