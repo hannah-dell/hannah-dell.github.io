@@ -25,7 +25,7 @@ export default function Navbar() {
   )
 
   return (
-    <nav className="w-full bg-navbarBackground shadow-md py-4">
+    <nav className="w-full bg-navbarBackground shadow-md py-2">
       <div className="body-container mx-auto flex items-center justify-between sm:justify-start">
           <Link
             to="/"
