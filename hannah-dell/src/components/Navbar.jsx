@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between sm:justify-start">
           <Link
             to="/"
-            className="text-lg text-headingYellow no-underline hover:text-hoverYellow transition duration-300 pr-4"
+            className="text-xl text-headingYellow no-underline hover:text-hoverYellow transition duration-300 pr-4"
           >
             {homeName}
           </Link>
