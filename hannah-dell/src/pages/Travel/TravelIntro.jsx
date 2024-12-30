@@ -1,6 +1,6 @@
 import Intro from '../../components/Intro';
 
-export default function TalksIntro() {
+export default function TravelIntro() {
   const imageDetails = {
     path: "/assets/me.jpeg",
     altText: "Hannah Dell"
