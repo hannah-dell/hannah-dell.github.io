@@ -33,11 +33,13 @@ export default function Talks() {
 
   return (
     <div className="body-container py-4">
-      <table>
-        <tbody>
-          {tableRows}
-        </tbody>
-      </table>
+      <div className="table-container">
+        <table>
+          <tbody>
+            {tableRows}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }

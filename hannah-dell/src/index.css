@@ -68,9 +68,13 @@ body a:hover {
   border-radius: 4px;
 }
 
-table {
+.table-container {
   display: block;
   overflow-x: auto;
+  width: 100%;
+}
+
+table {
   width: 100%;
 }
 
