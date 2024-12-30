@@ -14,7 +14,7 @@
     "arxiv": "https://arxiv.org/abs/2310.13651",
     "pdf": "2310.13651v2.pdf",
     "date": "2023-10-20",
-    "abstract": "<p>This is some html</p>",
+    "abstract": "<p>This is some html. And now for some <b>bold</b>. <em>Embellish</em>, you say?</p>",
     "collaborators": "Augustinas Jacovskis and Franco Rota"
   },
   {

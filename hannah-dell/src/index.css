@@ -96,6 +96,26 @@ table tr:nth-child(even) {
   background-color: #ffffff;
 }
 
+.article-container {
+  width: 100%;
+  padding: 4px;
+  margin: 20px 0;
+  border: 1px solid black;
+}
+
+.article-info {
+  display: inline-flex;
+  align-items: center;
+}
+
+.article-info > a {
+  padding-left: 5px;
+}
+
+.article-abstract {
+  margin: 15px 0 5px 0;
+}
+
 @media (min-width: 768px) {
   .img-me {
     max-width: 290px;
