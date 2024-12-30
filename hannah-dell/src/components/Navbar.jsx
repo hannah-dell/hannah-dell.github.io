@@ -34,6 +34,7 @@ export default function Navbar() {
             {homeName}
           </Link>
 
+        {/* Hamburger */}
         <div className="sm:hidden flex items-center">
           <button 
             className="text-headingYellow hover:text-hoverYellow transition duration-300"
@@ -52,7 +53,10 @@ export default function Navbar() {
       </div>
 
       {/* Headings with hamburger */}
-      <div className="sm:hidden">
+      <div
+        className={`sm:hidden mt-4 overflow-hidden transition-all duration-500 ease-in-out ${isHamburgerOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
         {headingNames}
       </div>
 
