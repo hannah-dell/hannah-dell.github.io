@@ -99,6 +99,10 @@ table tr:nth-child(even) {
   .body-container {
     max-width: 710px;
   }
+
+  table td:first-child, table th:first-child {
+    min-width: 180px;
+  }
 }
 
 @media (min-width: 992px) {
