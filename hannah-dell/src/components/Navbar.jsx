@@ -10,7 +10,7 @@ export default function Navbar() {
   const homeName = "Hannah Dell";
 
   const headingNames = (
-    <ul className="hidden sm:flex">
+    <ul className={`sm:flex ${isHamburgerOpen ? "block" : "hidden"}`}>
       {headings.map(heading => (
         <li key={heading.id} className="px-2">
           <Link 
@@ -45,8 +45,17 @@ export default function Navbar() {
           </button>
         </div>
 
+        {/* Headings without hamburger */}
+        <div className="hidden sm:block">
+          {headingNames}
+        </div>
+      </div>
+
+      {/* Headings with hamburger */}
+      <div className="sm:hidden">
         {headingNames}
       </div>
+
     </nav>
   )
 }
