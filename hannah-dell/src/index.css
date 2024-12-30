@@ -1,6 +1,8 @@
-body {
+html, body {
   font-size: 16px;
-  margin: 0
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -10,6 +12,8 @@ body {
 }
 
 .container {
+  max-width: 560px !important;
+  padding: 0 15px;
   margin: 0 auto; 
 }
 
@@ -82,19 +86,46 @@ table tr:nth-child(even) {
   background-color: #ffffff;
 }
 
-@media (min-width: 992px) {
-  .img-me {
-      max-width: 310px;
-  }
-}
-
 @media (min-width: 768px) {
   .img-me {
-      max-width: 290px;
-      margin-bottom: .5rem;
+    max-width: 290px;
+    margin-bottom: .5rem;
+  }
+
+  .container {
+    max-width: 710px !important;
   }
 }
 
+@media (min-width: 992px) {
+  .img-me {
+    max-width: 310px;
+  }
+
+  .container {
+    max-width: 950px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-me {
+    max-width: 310px;
+  }
+
+  .container {
+    max-width: 1120px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img-me {
+    max-width: 310px;
+  }
+
+  .container {
+    max-width: 1300px !important;
+  }
+}
 
 @tailwind base;
 @tailwind components;
