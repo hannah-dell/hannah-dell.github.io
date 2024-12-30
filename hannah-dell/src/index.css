@@ -66,6 +66,7 @@ body a:hover {
   width: 100%;
   height: auto;
   border-radius: 4px;
+  vertical-align: middle;
 }
 
 .table-container {
@@ -93,14 +94,14 @@ table tr:nth-child(even) {
 @media (min-width: 768px) {
   .img-me {
     max-width: 290px;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .body-container {
     max-width: 710px;
   }
 
-  table td:first-child, table th:first-child {
+  table td, table th {
     min-width: 180px;
   }
 }
