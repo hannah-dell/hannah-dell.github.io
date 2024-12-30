@@ -5,18 +5,18 @@ export default function Intro(props) {
     <img 
       src={props.imageDetails.path} 
       alt={props.imageDetails.altText}
+      key="header-image"
       className="img-me"  
     />
   )
 
   const insertImageInFirstContentElement = () => {
-    console.log("original", props.content)
     if (props.content && React.isValidElement(props.content)) {
 
       // Find first child element of content
       const firstChild = props.content.props.children[0];
 
-      if (firstChild) {
+      if (firstChild && React.isValidElement(firstChild)) {
         // Add image to last child element
         const newFirstChild = React.cloneElement(firstChild, {
           children: [
@@ -33,7 +33,6 @@ export default function Intro(props) {
           ],
         });
 
-        console.log("new", newContent);
         return newContent;
       }
     }
