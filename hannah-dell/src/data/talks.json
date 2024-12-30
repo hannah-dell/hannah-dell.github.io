@@ -14,6 +14,7 @@
     "seminarName": "GLEN Workshop: Stability Conditions",
     "seminarUrl": "https://pcwww.liv.ac.uk/~arizzard/GLEN/GLEN2023.html",
     "location": "Liverpool",
+    "pinned": true,
     "id": 1
   },
   {
@@ -96,6 +97,7 @@
     "seminarName": "Derived Work in Progress",
     "seminarUrl": "https://hodge.maths.ed.ac.uk/tiki/DeWIP",
     "location": "Edinburgh/Online",
+    "pinned": true,
     "id": 11
   },
   {
@@ -122,6 +124,7 @@
     "seminarName": "GIaMS Examples Seminar",
     "seminarUrl": "https://www.glams.org/2020-cohort/examples-seminar",
     "location": "Online",
+    "pinned": true,
     "id": 14
   },
   {

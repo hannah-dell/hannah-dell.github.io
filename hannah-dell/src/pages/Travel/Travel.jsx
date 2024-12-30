@@ -6,7 +6,7 @@ export default function Travel() {
   return (
     <>
       <TravelIntro />
-      <TravelTable />
+      <TravelTable pinnedOnly={false}/>
     </>
   )
 }

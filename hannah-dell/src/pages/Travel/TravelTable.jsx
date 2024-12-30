@@ -1,11 +1,13 @@
 import data from '../../data/travel.json';
 import Table from '../../components/Table';
 
-export default function Travel() {
+export default function TravelTable(props) {
 
   data.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  const tableRows = data.map(item => {
+  const newData = props.pinnedOnly ? data.filter(item => item.pinned) : data;
+
+  const tableRows = newData.map(item => {
     return (
       <tr key={item.id}>
         <td>

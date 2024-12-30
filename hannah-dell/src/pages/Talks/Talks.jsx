@@ -6,7 +6,7 @@ export default function Talks() {
   return (
     <>
       <TalksIntro />
-      <TalksTable />
+      <TalksTable pinnedOnly={false}/>
     </>
   )
 }
