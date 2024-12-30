@@ -105,5 +105,13 @@
     "location": "Online",
     "date": "2020-09-01",
     "id": 14
+  },
+  {
+    "name": "CIMPA School: Bridgeland Stability and Applications",
+    "url": "https://sites.google.com/view/bridgelandstabilitycimpa/",
+    "location": "Florianópolis",
+    "date": "2025-08-04",
+    "pinned": true,
+    "id": 15
   }
 ]
