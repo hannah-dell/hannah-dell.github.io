@@ -54,7 +54,7 @@ export default function Navbar() {
 
       {/* Headings with hamburger */}
       <div
-        className={`sm:hidden mt-4 overflow-hidden transition-all duration-500 ease-in-out ${isHamburgerOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        className={`sm:hidden overflow-hidden transition-all duration-500 ease-in-out ${isHamburgerOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         {headingNames}
