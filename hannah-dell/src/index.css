@@ -103,6 +103,12 @@ table tr:nth-child(even) {
   border: 1px solid black;
 }
 
+.article-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .article-info {
   display: inline-flex;
   align-items: center;
@@ -114,6 +120,11 @@ table tr:nth-child(even) {
 
 .article-abstract {
   margin: 15px 0 5px 0;
+}
+
+.article-journal {
+  padding: 0 5px 0 10px;
+  text-align: right;
 }
 
 @media (min-width: 768px) {

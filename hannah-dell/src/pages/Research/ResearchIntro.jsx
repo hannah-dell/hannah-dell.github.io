@@ -1,6 +1,6 @@
 import Intro from '../../components/Intro';
 
-export default function ArticlesIntro() {
+export default function ResearchIntro() {
   const imageDetails = {
     path: "/assets/me.jpeg",
     altText: "Hannah Dell"

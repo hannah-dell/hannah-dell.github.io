@@ -1,11 +1,13 @@
 import data from '../../data/teaching.json';
 import Table from '../../components/Table';
 
-export default function TeachingTable() {
+export default function TeachingTable(props) {
 
   data.sort((a, b) => new Date(b.date) - new Date(a.date));
+  
+  const newData = props.pinnedOnly ? data.filter(item => item.pinned) : data;
 
-  const tableRows = data.map(item => {
+  const tableRows = newData.map(item => {
     return (
       <tr key={item.id}>
         <td>

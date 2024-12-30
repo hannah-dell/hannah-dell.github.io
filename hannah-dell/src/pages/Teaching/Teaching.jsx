@@ -6,7 +6,7 @@ export default function Teaching() {
   return (
     <>
       <TeachingIntro />
-      <TeachingTable />
+      <TeachingTable pinnedOnly={false}/>
     </>
   )
 }

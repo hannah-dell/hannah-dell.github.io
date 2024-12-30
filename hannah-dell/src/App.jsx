@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Articles from './pages/Articles/Articles';
 import Hero from './components/Hero';
 import Home from './pages/Home/Home';
 import Navbar from './components/Navbar';
+import Research from './pages/Research/Research';
 import Talks from './pages/Talks/Talks';
 import Teaching from './pages/Teaching/Teaching';
 import Travel from './pages/Travel/Travel';
@@ -69,15 +69,15 @@ export default function App() {
           }
         />
         <Route 
-          path="/articles" 
+          path="/research" 
           element={
             <>
               <HelmetProvider>
                 <Helmet>
-                  <title>Articles - Hannah Dell</title>
+                  <title>Research - Hannah Dell</title>
                 </Helmet>
               </HelmetProvider>
-              <Articles />
+              <Research />
             </>
           }
         />

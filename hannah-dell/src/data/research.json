@@ -6,7 +6,10 @@
     "arxiv": "https://arxiv.org/abs/2307.00815",
     "pdf": "2307.00815v2.pdf",
     "abstract": "<p>This is some html</p>",
-    "collaborators": ""
+    "collaborators": "",
+    "journalStatus": "",
+    "journalUrl": ""
+    
   },
   {
     "id": 1,
@@ -15,7 +18,9 @@
     "pdf": "2310.13651v2.pdf",
     "date": "2023-10-20",
     "abstract": "<p>This is some html. And now for some <b>bold</b>. <em>Embellish</em>, you say?</p>",
-    "collaborators": "Augustinas Jacovskis and Franco Rota"
+    "collaborators": "Augustinas Jacovskis and Franco Rota",
+    "journalStatus": "Submitted",
+    "journalUrl": ""
   },
   {
     "id": 2,
@@ -24,6 +29,8 @@
     "pdf": "2311.06857v2.pdf",
     "date": "2023-11-12",
     "abstract": "<p>This is some html</p>",
-    "collaborators": "Edmund Heng and Anthony Licata"
+    "collaborators": "Edmund Heng and Anthony Licata",
+    "journalStatus": "Journal of Algebra",
+    "journalUrl": "https://www.google.com"
   }
 ]
