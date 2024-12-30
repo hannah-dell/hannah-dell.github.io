@@ -2,7 +2,7 @@ import photo from "../assets/me.jpeg"
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="body-container">
       <div className="flex items-center justify-start">
         <main className="py-4 space-y-4">
           <p>

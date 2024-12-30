@@ -5,14 +5,13 @@ html, body {
   height: 100%;
 }
 
-
 .hero {
   background-color: #ffc233;
   padding: 0.5rem 0;
 }
 
-.container {
-  max-width: 560px !important;
+.body-container {
+  max-width: 560px;
   padding: 0 15px;
   margin: 0 auto; 
 }
@@ -92,8 +91,8 @@ table tr:nth-child(even) {
     margin-bottom: .5rem;
   }
 
-  .container {
-    max-width: 710px !important;
+  .body-container {
+    max-width: 710px;
   }
 }
 
@@ -102,20 +101,20 @@ table tr:nth-child(even) {
     max-width: 310px;
   }
 
-  .container {
-    max-width: 950px !important;
+  .body-container {
+    max-width: 950px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1120px !important;
+  .body-container {
+    max-width: 1120px;
   }
 }
 
 @media (min-width: 1400px) {
-  .container {
-    max-width: 1300px !important;
+  .body-container {
+    max-width: 1300px;
   }
 }
 

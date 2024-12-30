@@ -27,7 +27,7 @@ export default function Teaching() {
   })
 
   return (
-    <div className="container py-4">
+    <div className="body-container py-4">
       <table>
         <tbody>
           {tableRows}

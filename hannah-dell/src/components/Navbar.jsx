@@ -26,7 +26,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-navbarBackground shadow-md py-4">
-      <div className="container mx-auto flex items-center justify-between sm:justify-start">
+      <div className="body-container mx-auto flex items-center justify-between sm:justify-start">
           <Link
             to="/"
             className="text-xl text-headingYellow no-underline hover:text-hoverYellow transition duration-300 pr-4"

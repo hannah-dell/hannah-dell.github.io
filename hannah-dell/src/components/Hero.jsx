@@ -15,7 +15,7 @@ export default function Hero(props) {
   
   return (
     <div className="hero">
-      <div className="container">
+      <div className="body-container">
         <h1>{formatHeading(heading)}</h1>
       </div>
     </div>
