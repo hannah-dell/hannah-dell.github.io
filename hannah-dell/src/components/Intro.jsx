@@ -20,8 +20,8 @@ export default function Intro(props) {
         // Add image to last child element
         const newFirstChild = React.cloneElement(firstChild, {
           children: [
-            ...React.Children.toArray(firstChild.props.children),
             image,
+            ...React.Children.toArray(firstChild.props.children),
           ],
         });
 
