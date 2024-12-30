@@ -2,8 +2,8 @@ import photo from "../assets/me.jpeg"
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-start">
-      <div className="space-y-4">
+    <div className="flex items-center justify-start container ">
+      <div className="py-4 space-y-4">
         <p>I am a postdoc in the <a className="link" href="https://www.math.uni-bonn.de/">Mathematical Institute at the University of Bonn</a>, in the working group of <a className="link" href="https://www.math.uni-bonn.de/~huybrech/">Daniel Huybrechts</a>. I'm funded by the ERC synergy grant <a className="link" href="https://www.erc-hyperk.org/">HyperK</a>.</p>
 
         <p>I did my PhD at the University of Edinburgh under the supervision of <a className="link" href="https://www.maths.ed.ac.uk/~abayer/">Arend Bayer</a>.</p>

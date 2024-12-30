@@ -13,8 +13,6 @@ import Talks from "./pages/Talks";
 import Teaching from "./pages/Teaching";
 import Travel from "./pages/Travel";
 
-
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -65,7 +63,6 @@ export default function App() {
             </>
           }
         />
-
       </Routes>
     </BrowserRouter>
   )

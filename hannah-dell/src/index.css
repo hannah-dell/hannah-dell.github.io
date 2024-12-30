@@ -3,9 +3,14 @@ body {
   margin: 0
 }
 
+
 .hero {
   background-color: #ffc233;
   padding: 0.5rem 0;
+}
+
+.container {
+  margin: 0 auto; 
 }
 
 h1, h2, h3 {
