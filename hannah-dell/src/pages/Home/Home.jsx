@@ -1,4 +1,4 @@
-import photo from "../assets/me.jpeg"
+import photo from "../../assets/me.jpeg"
 
 export default function Home() {
   return (

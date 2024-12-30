@@ -1,4 +1,4 @@
-import data from "../data/talks.json";
+import data from "../../data/talks.json";
 
 export default function Talks() {
 

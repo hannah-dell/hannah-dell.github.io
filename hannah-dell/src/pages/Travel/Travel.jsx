@@ -1,6 +1,6 @@
-import data from "../data/teaching.json";
+import data from "../../data/travel.json";
 
-export default function Teaching() {
+export default function Travel() {
 
   data.sort((a, b) => new Date(b.date) - new Date(a.date));
 
@@ -8,12 +8,12 @@ export default function Teaching() {
     return (
       <tr key={item.id}>
         <td>
-          {item.dateText}
+          {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
         </td>
         <td>
-          {item.courseUrl ? (
+          {item.url ? (
             <>
-              <a className="link" href={item.courseUrl} target="_blank" rel="noopener noreferrer">{item.name}</a>
+              <a className="link" href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
             </>
           ) : (
             item.name

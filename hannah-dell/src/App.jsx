@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Hero from './components/Hero';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import Navbar from './components/Navbar';
-import Talks from './pages/Talks';
-import Teaching from './pages/Teaching';
-import Travel from './pages/Travel';
+import Talks from './pages/Talks/Talks';
+import Teaching from './pages/Teaching/Teaching';
+import Travel from './pages/Travel/Travel';
 
 export default function App() {
   return (
