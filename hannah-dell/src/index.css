@@ -102,7 +102,7 @@ table tr:nth-child(even) {
   }
 
   table td, table th {
-    min-width: 180px;
+    min-width: 220px;
   }
 }
 
