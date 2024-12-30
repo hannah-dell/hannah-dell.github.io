@@ -65,7 +65,7 @@ body a:hover {
   float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  max-width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 4px;
 }
@@ -108,20 +108,12 @@ table tr:nth-child(even) {
 }
 
 @media (min-width: 1200px) {
-  .img-me {
-    max-width: 310px;
-  }
-
   .container {
     max-width: 1120px !important;
   }
 }
 
 @media (min-width: 1400px) {
-  .img-me {
-    max-width: 310px;
-  }
-
   .container {
     max-width: 1300px !important;
   }
