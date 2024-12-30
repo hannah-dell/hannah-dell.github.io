@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
+import Articles from './pages/Articles/Articles';
 import Hero from './components/Hero';
 import Home from './pages/Home/Home';
 import Navbar from './components/Navbar';
@@ -64,6 +65,19 @@ export default function App() {
                 </Helmet>
               </HelmetProvider>
               <Travel />
+            </>
+          }
+        />
+        <Route 
+          path="/articles" 
+          element={
+            <>
+              <HelmetProvider>
+                <Helmet>
+                  <title>Articles - Hannah Dell</title>
+                </Helmet>
+              </HelmetProvider>
+              <Articles />
             </>
           }
         />

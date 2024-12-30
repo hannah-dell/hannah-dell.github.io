@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "name": "Stability Conditions on Free Abelian Quotients",
+    "date": "2023-07-03",
+    "arxiv": "https://arxiv.org/abs/2307.00815",
+    "pdf": "2307.00815v2.pdf",
+    "abstract": "<p>This is some html</p>",
+    "collaborators": ""
+  },
+  {
+    "id": 1,
+    "name": "Cyclic covers: Hodge theory and categorical Torelli theorems",
+    "arxiv": "https://arxiv.org/abs/2310.13651",
+    "pdf": "2310.13651v2.pdf",
+    "date": "2023-10-20",
+    "abstract": "<p>This is some html</p>",
+    "collaborators": "Augustinas Jacovskis and Franco Rota"
+  },
+  {
+    "id": 2,
+    "name": "Fusion-equivariant stability conditions and Morita duality",
+    "arxiv": "https://arxiv.org/abs/2311.06857",
+    "pdf": "2311.06857v2.pdf",
+    "date": "2023-11-12",
+    "abstract": "<p>This is some html</p>",
+    "collaborators": "Edmund Heng and Anthony Licata"
+  }
+]

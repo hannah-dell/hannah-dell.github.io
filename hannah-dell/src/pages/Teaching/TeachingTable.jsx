@@ -3,6 +3,8 @@ import Table from '../../components/Table';
 
 export default function TeachingTable() {
 
+  data.sort((a, b) => new Date(b.date) - new Date(a.date));
+
   const tableRows = data.map(item => {
     return (
       <tr key={item.id}>
