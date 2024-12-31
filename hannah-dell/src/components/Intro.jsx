@@ -1,8 +1,19 @@
+import { MathJax, MathJaxContext } from 'better-react-mathjax';
+import { useEffect } from 'react';
+
 import data from '../data/pages.json';
+
 
 export default function Intro(props) {
 
   const document = data.find(item => item.name === props.name);
+
+  // Rerender MathJax on change
+  useEffect(() => {
+    if (document && document.content.html && window.MathJax) {
+      window.MathJax.typeset();
+    }
+  }, [document.content.html]);
 
   const insertImageInFirstContentElement = () => {
     const image = document.content.image 
@@ -23,9 +34,11 @@ export default function Intro(props) {
 
   return (
     document && 
-      <div
-        className="flex items-center justify-start body-container pt-4"
-        dangerouslySetInnerHTML={{ __html: insertImageInFirstContentElement() }} // note data must come from safe source
-      />
+      <MathJaxContext>
+        <div
+          className="flex items-center justify-start body-container pt-4"
+          dangerouslySetInnerHTML={{ __html: insertImageInFirstContentElement() }} // note data must come from safe source
+        />
+      </MathJaxContext>
   )
 }
