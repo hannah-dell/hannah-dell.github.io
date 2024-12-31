@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Home from './pages/Home/Home';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 import Research from './pages/Research/Research';
 import Talks from './pages/Talks/Talks';
 import Teaching from './pages/Teaching/Teaching';
@@ -116,6 +117,7 @@ export default function App() {
             }
           />
         ))}
+        <Route path="*" element={<NotFound /> }/>
       </Routes>
     </BrowserRouter>
   )
