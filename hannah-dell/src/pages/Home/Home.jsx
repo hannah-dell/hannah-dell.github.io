@@ -8,14 +8,11 @@ export default function Home() {
     <>
       <HomeIntro />
 
-      <h2 className="body-container">Selected Talks</h2>
-      <TalksTable pinnedOnly={true} />
+      <TalksTable pinnedOnly={true} heading="Selected Talks" />
 
-      <h2 className="body-container">Selected Travel</h2>
-      <TravelTable pinnedOnly={true}/>
+      <TravelTable pinnedOnly={true} heading="Selected Travel" />
 
-      <h2 className="body-container">Recently Taught Courses</h2>
-      <TeachingTable pinnedOnly={true}/>
+      <TeachingTable pinnedOnly={true} heading="Recently Taught Courses" />
 
 
     </>

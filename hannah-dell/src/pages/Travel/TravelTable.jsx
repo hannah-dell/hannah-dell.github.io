@@ -30,6 +30,6 @@ export default function TravelTable(props) {
   })
 
   return (
-    <Table content={tableRows} />
+    <Table content={tableRows} heading={props.heading} />
   )
 }

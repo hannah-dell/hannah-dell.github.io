@@ -30,6 +30,6 @@ export default function TeachingTable(props) {
   })
 
   return (
-    <Table content={tableRows} />
+    <Table content={tableRows} heading={props.heading} />
   )
 }
