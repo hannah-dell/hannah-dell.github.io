@@ -6,7 +6,7 @@
     "showYear": false,
     "arxiv": "https://arxiv.org/abs/2307.00815",
     "pdf": "2307.00815v2.pdf",
-    "abstract": "<p>\\(2025 = \\sum_{k=0}^9 n^2 \\)</p>",
+    "abstract": "<p>\\(2025 = \\sum_{k=0}^9 k^2 \\)</p>",
     "collaborators": "",
     "journalStatus": "",
     "journalUrl": "",
