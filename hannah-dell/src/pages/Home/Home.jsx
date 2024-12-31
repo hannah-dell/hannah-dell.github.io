@@ -11,7 +11,7 @@ export default function Home() {
       <h2 className="body-container">Selected Talks</h2>
       <TalksTable pinnedOnly={true} />
 
-      <h2 className="body-container">Selected Conferences</h2>
+      <h2 className="body-container">Selected Travel</h2>
       <TravelTable pinnedOnly={true}/>
 
       <h2 className="body-container">Recently Taught Courses</h2>

@@ -11,9 +11,6 @@ export default function TravelTable(props) {
     return (
       <tr key={item.id}>
         <td>
-          {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
-        </td>
-        <td>
           {item.url ? (
             <>
               <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
@@ -21,6 +18,9 @@ export default function TravelTable(props) {
           ) : (
             item.name
           )}
+        </td>
+        <td>
+          {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
         </td>
         <td>
           {item.location}

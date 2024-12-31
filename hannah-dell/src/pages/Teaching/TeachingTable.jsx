@@ -11,9 +11,6 @@ export default function TeachingTable(props) {
     return (
       <tr key={item.id}>
         <td>
-          {item.dateText}
-        </td>
-        <td>
           {item.courseUrl ? (
             <>
               <a href={item.courseUrl} target="_blank" rel="noopener noreferrer">{item.name}</a>
@@ -21,6 +18,9 @@ export default function TeachingTable(props) {
           ) : (
             item.name
           )}
+        </td>
+        <td>
+          {item.dateText}
         </td>
         <td>
           {item.location}
