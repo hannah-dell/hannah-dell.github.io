@@ -1,3 +1,5 @@
+
+import Articles from '../../components/Articles';
 import HomeIntro from './HomeIntro';
 import TalksTable from '../Talks/TalksTable';
 import TravelTable from '../Travel/TravelTable';
@@ -7,6 +9,8 @@ export default function Home() {
   return (
     <>
       <HomeIntro />
+
+      <Articles pinnedOnly={true} heading="Selected Research Papers" />
 
       <TalksTable pinnedOnly={true} heading="Selected Talks" />
 

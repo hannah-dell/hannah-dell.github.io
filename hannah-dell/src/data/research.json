@@ -9,7 +9,8 @@
     "abstract": "<p>This is some html</p>",
     "collaborators": "",
     "journalStatus": "",
-    "journalUrl": ""
+    "journalUrl": "",
+    "pinned": true
     
   },
   {
@@ -22,7 +23,8 @@
     "abstract": "<p>This is some html. And now for some <b>bold</b>. <em>Embellish</em>, you say?</p>",
     "collaborators": "Augustinas Jacovskis and Franco Rota",
     "journalStatus": "Submitted",
-    "journalUrl": ""
+    "journalUrl": "",
+    "pinned": false
   },
   {
     "id": 2,
@@ -34,6 +36,7 @@
     "abstract": "<p>This is some html</p>",
     "collaborators": "Edmund Heng and Anthony Licata",
     "journalStatus": "Journal of Algebra",
-    "journalUrl": "https://www.google.com"
+    "journalUrl": "https://www.google.com",
+    "pinned": true
   }
 ]
