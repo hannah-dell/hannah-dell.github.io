@@ -97,10 +97,14 @@ table tr:nth-child(even) {
   background-color: #ffffff;
 }
 
+.table-title {
+  margin-bottom: 20px;
+}
+
 .article-container {
   width: 100%;
   padding: 4px;
-  margin: 20px 0;
+  margin-top: 20px;
   border: 1px solid black;
 }
 

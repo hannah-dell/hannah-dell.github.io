@@ -8,7 +8,7 @@ export default function Articles(props) {
   return (
     <>
       {newData && newData.length > 0 && (
-        <div className="body-container py-4">
+        <div className="body-container">
           <h2>{props.heading ? props.heading : "Articles"}</h2>
           {newData.map(item => {
             return (
