@@ -115,7 +115,7 @@ table tr:nth-child(even) {
   align-items: center;
 }
 
-.article-info span, .article-info a {
+.article-info > span, .article-info > a {
   padding-left: 5px;
 }
 
