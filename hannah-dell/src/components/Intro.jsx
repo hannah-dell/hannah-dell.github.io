@@ -1,14 +1,17 @@
 import React from 'react';
 
 export default function Intro(props) {
-  const image = (
-    <img 
-      src={props.imageDetails.path} 
-      alt={props.imageDetails.altText}
-      key="header-image"
-      className="img-me"  
-    />
-  )
+  const image = props.imageDetails.path 
+    ?
+      (
+        <img 
+          src={props.imageDetails.path} 
+          alt={props.imageDetails.altText}
+          key="header-image"
+          className="img-me"  
+        />
+      )
+    : undefined;
 
   const insertImageInFirstContentElement = () => {
     if (props.content && React.isValidElement(props.content)) {
