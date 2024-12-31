@@ -31,7 +31,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Hero />
+      <Hero homePath={`${specialPages.home.path}`}/>
       <Routes>
         <Route 
           path={`${specialPages.home.path}`}
