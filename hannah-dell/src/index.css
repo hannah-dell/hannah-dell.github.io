@@ -39,7 +39,6 @@ body b {
 }
 
 body p {
-  margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 400;
 }
@@ -54,12 +53,14 @@ body a:hover {
 }
 
 li {
+  margin-bottom: 1rem;
   list-style-type: disc;
   list-style-position: inside;
   padding-left: 10px;
 }
 
 nav li {
+  margin-bottom: 0;
   list-style-type: none;
   padding-left: 0;
 }
