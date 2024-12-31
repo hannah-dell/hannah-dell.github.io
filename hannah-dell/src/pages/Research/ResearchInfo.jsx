@@ -10,6 +10,7 @@ export default function ResearchInfo() {
         <div className="article-top">
           <div className="article-info">
             <h3 className="article-heading">{item.name}</h3>
+            {item.showYear && <span className="article-detail">({new Date(item.date).toLocaleString("en-GB", { year: "numeric" })})</span>}
             {item.arxiv && (<a className="article-link" href={item.arxiv} target="_blank" rel="noopener noreferrer">(arXiv)</a>)}
             {item.pdf && (<a className="article-link" href={`/papers/${item.pdf}`} target="_blank" rel="noopener noreferrer">(PDF)</a>)}
           </div>
