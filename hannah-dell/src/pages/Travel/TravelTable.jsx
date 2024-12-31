@@ -27,7 +27,7 @@ export default function TravelTable(props) {
         </td>
       </tr>
     )
-  })
+  });
 
   return (
     <Table content={tableRows} heading={props.heading} />
