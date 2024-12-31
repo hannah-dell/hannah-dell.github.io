@@ -9,7 +9,7 @@ export default function HomeIntro() {
   const content = (
     <div>
       <p>
-      I am a postdoc in the <a href="https://www.math.uni-bonn.de/">Mathematical Institute at the University of Bonn</a>, in the working group of <a href="https://www.math.uni-bonn.de/~huybrech/">Daniel Huybrechts</a>. I'm funded by the ERC synergy grant <a href="https://www.erc-hyperk.org/">HyperK</a>.
+      I am a postdoc in the <a href="https://www.math.uni-bonn.de/">Mathematical Institute at the University of Bonn</a>, in the working group of <a href="https://www.math.uni-bonn.de/~huybrech/">Daniel Huybrechts</a>. I&#39;m funded by the ERC synergy grant <a href="https://www.erc-hyperk.org/">HyperK</a>.
       </p>
 
       <p>I did my PhD at the University of Edinburgh under the supervision of <a href="https://www.maths.ed.ac.uk/~abayer/">Arend Bayer</a>.</p>
@@ -46,7 +46,7 @@ export default function HomeIntro() {
 
       <p>I previously organised <a href="https://sites.google.com/view/gaelxxx/home">GAeL XXX</a> (University of Warwick, July 2023), <a href="https://sites.google.com/view/gaelxxix/home">GAeL XXIX</a> (Université Paris-Saclay, May 2022), and the Edinburgh Geometry seminar (<a href="https://hodge.maths.ed.ac.uk/?page_id=36">EDGE</a>).</p>
 
-      <p>When I'm not doing maths, I like to hike, climb and kayak.</p> 
+      <p>When I&#39;m not doing maths, I like to hike, climb and kayak.</p> 
     </div>
 
   )
