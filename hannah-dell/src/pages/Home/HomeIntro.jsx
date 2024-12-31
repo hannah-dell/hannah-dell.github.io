@@ -8,7 +8,7 @@ export default function HomeIntro() {
   
   const content = (
     <div>
-      <p>Hello World. 
+      <p>
       I am a postdoc in the <a href="https://www.math.uni-bonn.de/">Mathematical Institute at the University of Bonn</a>, in the working group of <a href="https://www.math.uni-bonn.de/~huybrech/">Daniel Huybrechts</a>. I'm funded by the ERC synergy grant <a href="https://www.erc-hyperk.org/">HyperK</a>.
       </p>
 
