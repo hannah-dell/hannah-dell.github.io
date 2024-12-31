@@ -6,7 +6,7 @@
     "showYear": false,
     "arxiv": "https://arxiv.org/abs/2307.00815",
     "pdf": "2307.00815v2.pdf",
-    "abstract": "<p>This is some html</p>",
+    "abstract": "<p>Inline math: \\( E = mc^2 \\)</p>",
     "collaborators": "",
     "journalStatus": "",
     "journalUrl": "",

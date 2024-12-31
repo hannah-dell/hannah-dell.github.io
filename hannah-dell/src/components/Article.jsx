@@ -1,8 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { MathJax, MathJaxContext } from 'better-react-mathjax';
+
 
 export default function Article({ item, isCollapsible }) {
     
   const [isOpen, setIsOpen] = useState(isCollapsible ? false : true);
+
+  // Rerender MathJax on change
+  useEffect(() => {
+    if (isOpen && window.MathJax) {
+      window.MathJax.typeset();
+    }
+  }, [isOpen, item.abstract]);
 
   return (
     <div className="article-container" key={item.id}>
@@ -24,10 +33,12 @@ export default function Article({ item, isCollapsible }) {
         </div>
         {item.collaborators && <h4><em>Joint with {item.collaborators}</em></h4>}
         {isOpen &&
-          <div
-            className="article-abstract"
-            dangerouslySetInnerHTML={{ __html: item.abstract }} // note data must come from safe source
-          />
+          <MathJaxContext>
+            <div
+              className="article-abstract"
+              dangerouslySetInnerHTML={{ __html: item.abstract }} // note data must come from safe source
+            />
+          </MathJaxContext>
         }
       </div>
   );
