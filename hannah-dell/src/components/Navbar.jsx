@@ -24,7 +24,7 @@ export default function Navbar() {
             to={`${heading.path.toLowerCase()}`}
             className="text-headingYellow no-underline hover:text-hoverYellow transition duration-300"
           >
-            {heading.name}
+            {heading.shortName}
           </Link>
         </li>
       ))}
