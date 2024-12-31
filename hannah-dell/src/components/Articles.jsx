@@ -12,7 +12,7 @@ export default function Articles(props) {
           <h2>{props.heading ? props.heading : "Articles"}</h2>
           {newData.map(item => {
             return (
-              <Article item={item} key={item.id} />
+              <Article item={item} key={item.id} isCollapsible={props.isCollapsible}/>
             )
           })}
         </div>

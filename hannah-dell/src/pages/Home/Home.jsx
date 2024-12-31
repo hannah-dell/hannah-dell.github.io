@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Intro name="Home" />
 
-      <Articles pinnedOnly={true} heading="Selected Research Papers" />
+      <Articles pinnedOnly={true} heading="Selected Research Papers" isCollapsible={false}/>
 
       <TalksTable pinnedOnly={true} heading="Selected Talks" />
 
