@@ -1,50 +1,31 @@
-import React from 'react';
+import data from '../data/pages.json';
 
 export default function Intro(props) {
-  const image = props.imageDetails.path 
-    ?
-      (
-        <img 
-          src={props.imageDetails.path} 
-          alt={props.imageDetails.altText}
-          key="header-image"
-          className="img-me"  
-        />
-      )
-    : undefined;
+
+  const document = data.find(item => item.name === props.name);
 
   const insertImageInFirstContentElement = () => {
-    if (props.content && React.isValidElement(props.content)) {
-
-      // Find first child element of content
-      const firstChild = props.content.props.children[0];
-
-      if (firstChild && React.isValidElement(firstChild)) {
-        // Add image to last child element
-        const newFirstChild = React.cloneElement(firstChild, {
-          children: [
-            image,
-            ...React.Children.toArray(firstChild.props.children),
-          ],
-        });
-
-        // Update content
-        const newContent = React.cloneElement(props.content, {
-          children: [
-            newFirstChild,
-            ...React.Children.toArray(props.content.props.children).slice(1),
-          ],
-        });
-
-        return newContent;
-      }
+    const image = document.content.image 
+      ? `<img src="${document.content.image.path}" alt="${document.content.image.altText}" class="img-me" />` 
+      : undefined;
+  
+    if (document.content.html && document.content.image) {
+      // Insert image after the first tag (e.g. <p>) if image path exists
+      return (
+        document.content.image && document.content.image.path
+        ? document.content.html.replace(/(<[^>]+>)/, `$1${image}`)
+        : document.content.html
+      );
     }
-    return props.content;
+  
+    return document.content.html;
   };
 
   return (
-    <div className="flex items-center justify-start body-container pt-4">
-      {insertImageInFirstContentElement()}
-    </div>
+    document && 
+      <div
+        className="flex items-center justify-start body-container pt-4"
+        dangerouslySetInnerHTML={{ __html: insertImageInFirstContentElement() }} // note data must come from safe source
+      />
   )
 }

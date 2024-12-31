@@ -1,11 +1,11 @@
-import TravelIntro from './TravelIntro';
+import Intro from '../../components/Intro';
 import TravelTable from './TravelTable';
 
 export default function Travel() {
 
   return (
     <>
-      <TravelIntro />
+      <Intro name="Travel" />
       <TravelTable pinnedOnly={false}/>
     </>
   )

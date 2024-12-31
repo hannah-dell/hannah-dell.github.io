@@ -17,7 +17,7 @@ export default function Navbar() {
   const headingNames = (
     <ul className={`sm:flex ${isHamburgerOpen ? "block" : "hidden"}`}>
       {headings.map(heading => (
-        <li key={heading.id} className="pr-4 py-2">
+        heading.name !== "Home" && <li key={heading.id} className="pr-4 py-2">
           <Link 
             to={`${heading.name.toLowerCase()}`}
             className="text-headingYellow no-underline hover:text-hoverYellow transition duration-300"

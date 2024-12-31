@@ -1,11 +1,11 @@
-import ResearchIntro from './ResearchIntro';
+import Intro from '../../components/Intro';
 import ResearchInfo from './ResearchInfo';
 
 export default function Research() {
 
   return (
     <>
-      <ResearchIntro />
+      <Intro name="Research" />
       <ResearchInfo />
     </>
   )

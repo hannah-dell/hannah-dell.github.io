@@ -1,11 +1,11 @@
-import TalksIntro from "./TalksIntro";
-import TalksTable from "./TalksTable";
+import Intro from '../../components/Intro';
+import TalksTable from './TalksTable';
 
 export default function Talks() {
 
   return (
     <>
-      <TalksIntro />
+      <Intro name="Talks" />
       <TalksTable pinnedOnly={false}/>
     </>
   )
