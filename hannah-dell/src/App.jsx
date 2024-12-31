@@ -43,7 +43,7 @@ export default function App() {
             <>
               <HelmetProvider>
                 <Helmet>
-                  <title>{specialPages.home.name} - Hannah Dell</title>
+                  <title>{specialPages.home.shortName} - Hannah Dell</title>
                 </Helmet>
               </HelmetProvider>
               <Home name={specialPages.home.name}/>
@@ -56,7 +56,7 @@ export default function App() {
             <>
               <HelmetProvider>
                 <Helmet>
-                  <title>{specialPages.talks.name} - Hannah Dell</title>
+                  <title>{specialPages.talks.shortName} - Hannah Dell</title>
                 </Helmet>
               </HelmetProvider>
               <Talks name={specialPages.talks.name}/>
@@ -69,7 +69,7 @@ export default function App() {
             <>
               <HelmetProvider>
                 <Helmet>
-                  <title>{specialPages.teaching.name} - Hannah Dell</title>
+                  <title>{specialPages.teaching.shortName} - Hannah Dell</title>
                 </Helmet>
               </HelmetProvider>
               <Teaching name={specialPages.teaching.name}/>
@@ -82,7 +82,7 @@ export default function App() {
             <>
               <HelmetProvider>
                 <Helmet>
-                  <title>{specialPages.travel.name} - Hannah Dell</title>
+                  <title>{specialPages.travel.shortName} - Hannah Dell</title>
                 </Helmet>
               </HelmetProvider>
               <Travel name={specialPages.travel.name}/>
@@ -95,7 +95,7 @@ export default function App() {
             <>
               <HelmetProvider>
                 <Helmet>
-                  <title>{specialPages.research.name} - Hannah Dell</title>
+                  <title>{specialPages.research.shortName} - Hannah Dell</title>
                 </Helmet>
               </HelmetProvider>
               <Research name={specialPages.research.name}/>
@@ -113,7 +113,7 @@ export default function App() {
 
                 <HelmetProvider>
                   <Helmet>
-                    <title>{page.name} - Hannah Dell</title>
+                    <title>{page.shortName} - Hannah Dell</title>
                   </Helmet>
                 </HelmetProvider>
                 <Intro name={page.name}/>
