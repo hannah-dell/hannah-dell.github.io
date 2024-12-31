@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
@@ -33,8 +33,12 @@ export default function App() {
       <Navbar />
       <Hero />
       <Routes>
+        <Route 
+          path={`${specialPages.home.path}`}
+          element={<Navigate to="/" replace />}
+        />
         <Route
-          path={`/${specialPages.home.path}`}
+          path={`/`}
           element={
             <>
               <HelmetProvider>
