@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Article({ item, isCollapsible }) {
     
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(isCollapsible ? false : true);
 
   return (
     <div className="article-container" key={item.id}>
