@@ -16,7 +16,7 @@ export default function ResearchInfo() {
           <div className="article-journal">
             {item.journalStatus && 
               item.journalUrl 
-                ? <h5><em><a className="article-link" href={item.arxiv} target="_blank" rel="noopener noreferrer">{item.journalStatus}</a></em></h5> 
+                ? <h5><em><a className="article-link" href={item.journalUrl} target="_blank" rel="noopener noreferrer">{item.journalStatus}</a></em></h5> 
                 : <h5><em>{item.journalStatus}</em></h5>
             }
           </div>
