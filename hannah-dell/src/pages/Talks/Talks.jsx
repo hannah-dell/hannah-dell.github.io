@@ -1,11 +1,11 @@
 import Intro from '../../components/Intro';
 import TalksTable from './TalksTable';
 
-export default function Talks() {
+export default function Talks(props) {
 
   return (
     <>
-      <Intro name="Talks" />
+      <Intro name={props.name} />
       <TalksTable pinnedOnly={false}/>
     </>
   )

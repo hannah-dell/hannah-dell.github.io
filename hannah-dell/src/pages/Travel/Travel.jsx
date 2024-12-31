@@ -1,11 +1,11 @@
 import Intro from '../../components/Intro';
 import TravelTable from './TravelTable';
 
-export default function Travel() {
+export default function Travel(props) {
 
   return (
     <>
-      <Intro name="Travel" />
+      <Intro name={props.name} />
       <TravelTable pinnedOnly={false}/>
     </>
   )

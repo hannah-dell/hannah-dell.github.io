@@ -5,10 +5,10 @@ import TalksTable from '../Talks/TalksTable';
 import TravelTable from '../Travel/TravelTable';
 import TeachingTable from '../Teaching/TeachingTable';
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
-      <Intro name="Home" />
+      <Intro name={props.name} />
 
       <Articles pinnedOnly={true} heading="Selected Research Papers" isCollapsible={false}/>
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import headings from '../data/pages.json';
+import data from '../data/pages.json';
 
 export default function Navbar() {
 
@@ -14,12 +14,14 @@ export default function Navbar() {
 
   const homeName = "Hannah Dell";
 
+  const navbarHeadings = data.filter(page => (page.isOnNavbar))
+
   const headingNames = (
     <ul className={`sm:flex ${isHamburgerOpen ? "block" : "hidden"}`}>
-      {headings.map(heading => (
-        heading.name !== "Home" && <li key={heading.id} className="pr-4 py-2">
+      {navbarHeadings.map(heading => (
+        <li key={heading.id} className="pr-4 py-2">
           <Link 
-            to={`${heading.name.toLowerCase()}`}
+            to={`${heading.path.toLowerCase()}`}
             className="text-headingYellow no-underline hover:text-hoverYellow transition duration-300"
           >
             {heading.name}
