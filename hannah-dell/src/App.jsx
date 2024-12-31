@@ -22,7 +22,7 @@ export default function App() {
   const specialPages = specialPageNames.reduce((acc, pageName) => {
     const pageData = data.find((page) => page.name === pageName);
     if (pageData) {
-      acc[pageName.toLowerCase()] = pageData; // Store the page in the dictionary (lowercase key)
+      acc[pageName.toLowerCase()] = pageData;
     }
     return acc;
   }, {});
@@ -30,7 +30,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Hero homeName="Home"/>
+      <Hero />
       <Routes>
         <Route
           path={`/${specialPages.home.path}`}

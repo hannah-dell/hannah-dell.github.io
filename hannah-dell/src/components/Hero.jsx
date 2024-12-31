@@ -1,22 +1,18 @@
 import { useLocation } from "react-router-dom"
 
-export default function Hero(props) {
+import data from "../data/pages.json";
+
+export default function Hero() {
 
   const location = useLocation();
-  const heading = location.pathname.split('/')[1];
+  const path = location.pathname.split('/')[1];
 
-  const formatHeading = (str) => {
-    if (!str) {
-      return props.homeName;
-    } 
-
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  }
+  const pageData = data.find(page => page.path === path);
   
   return (
-    <div className="hero">
+    pageData && <div className="hero">
       <div className="body-container">
-        <h1>{formatHeading(heading)}</h1>
+        <h1>{pageData.name}</h1>
       </div>
     </div>
   )
