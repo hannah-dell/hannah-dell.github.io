@@ -6,18 +6,28 @@ export default function TalksTable(props) {
   data.sort((a, b) => new Date(b.date) - new Date(a.date));
   const newData = props.pinnedOnly ? data.filter(item => item.pinned) : data;
 
-  const tableRows = newData.map(item => {
+  const splitByName = (data) => {
+    const names = {}
+
+    data.forEach(item => {
+    if (!names[item.name]) {
+      names[item.name] = [];
+    }
+
+    names[item.name].push(item);
+  });
+
+  return Object.values(names);
+  }
+
+  const generateTableRows = (data, isHeading) => data.map(item => {
     return (
       <tr key={item.id}>
-        <td>
-          {item.notes ? (
-            <>
-              {item.name} <a href={`/notes/${item.notes}`} target="_blank" rel="noopener noreferrer">(notes)</a>
-            </>
-          ) : (
-            item.name
-          )}
-        </td>
+        {!isHeading && 
+          <td>
+            {item.name}
+          </td>
+        }
         <td>
           {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
         </td>
@@ -31,11 +41,18 @@ export default function TalksTable(props) {
         <td>
           {item.location}
         </td>
+        <td>
+          {item.notes && <a href={`/notes/${item.notes}`} target="_blank" rel="noopener noreferrer">Notes</a>}
+        </td>
       </tr>
     )
   })
 
   return (
-    <Table content={tableRows} heading={props.heading} />
+    props.pinnedOnly
+      ? <Table content={generateTableRows(newData, false)} heading={props.heading} />
+      : 
+        splitByName(newData).map(itemGroup => <Table content={generateTableRows(itemGroup, true)} heading={itemGroup[0].name} />)
+      
   )
 }
