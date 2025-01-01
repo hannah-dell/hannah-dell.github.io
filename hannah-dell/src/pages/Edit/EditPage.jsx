@@ -32,8 +32,6 @@ export default function EditPage(props) {
       break;
   } 
 
-  console.log(data)
-
   const sortedData = data.sort((a, b) => {
     if (a.date && b.date) {
       return new Date(b.date) - new Date(a.date);
