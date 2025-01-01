@@ -8,8 +8,6 @@ export default function Navbar() {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   const location = useLocation();
 
-  const mode = import.meta.env.MODE || "production"; // if the mode cannot be accessed, assume prod
-
   useEffect(() => {
     setIsHamburgerOpen(false);
   }, [location]);
@@ -30,16 +28,6 @@ export default function Navbar() {
           </Link>
         </li>
       ))}
-      {mode == "development" &&
-          <li className="pr-4 py-2">
-            <Link 
-              to="edit"
-              className="text-orange-400 font-bold no-underline hover:text-hoverYellow transition duration-300"
-            >
-              Edit
-            </Link>
-          </li>
-      }
     </ul>
   )
 
