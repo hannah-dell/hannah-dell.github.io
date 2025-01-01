@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Edit from './pages/Edit/Edit';
 import EditContent from './pages/Edit/EditContent';
+import EditPage from './pages/Edit/EditPage'
 import Hero from './components/Hero';
 import Home from './pages/Home/Home';
 import Intro from './components/Intro';
@@ -138,6 +139,12 @@ export default function App() {
             />
             <Route
               path="/edit/:name"
+              element={
+                <EditPage editOptions={editOptions} />
+              }
+            />
+            <Route
+              path="/edit/:name/:id"
               element={
                 <EditContent editOptions={editOptions} />
               }
