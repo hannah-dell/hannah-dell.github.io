@@ -13,7 +13,7 @@ export default function Intro(props) {
     if (document && document.content.html && window.MathJax) {
       window.MathJax.typeset();
     }
-  }, [document.content.html]);
+  }, [document, document.content.html]);
 
   const insertImageInFirstContentElement = () => {
     const image = document.content.image 

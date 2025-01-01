@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
+import Edit from './pages/Edit/Edit';
 import Hero from './components/Hero';
 import Home from './pages/Home/Home';
 import Intro from './components/Intro';
@@ -27,6 +28,8 @@ export default function App() {
     }
     return acc;
   }, {});
+
+  const mode = import.meta.env.MODE || "production"; // if the mode cannot be accessed, assume prod
 
   return (
     <BrowserRouter>
@@ -121,6 +124,16 @@ export default function App() {
             }
           />
         ))}
+
+        {mode == "development" && 
+          <Route 
+            path="/edit"
+            element={
+              <Edit />
+            }
+          />
+        }
+
         <Route path="*" element={<NotFound /> }/>
       </Routes>
     </BrowserRouter>
