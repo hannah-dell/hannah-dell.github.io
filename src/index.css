@@ -163,6 +163,10 @@ table tr:nth-child(even) {
   padding: 2px;
 }
 
+.article-description {
+  font-weight: 700;
+}
+
 .article-abstract {
   margin: 2px 0;
 }
