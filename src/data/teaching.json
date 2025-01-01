@@ -4,7 +4,7 @@
     "courseUrl": "http://www.drps.ed.ac.uk/23-24/dpt/cxmath10074.htm",
     "date": "2024-09-01",
     "dateText": "2023-2024 Semester 1",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "pinned": true,
     "id": 0
   },
@@ -13,7 +13,7 @@
     "courseUrl": "https://teaching.maths.ed.ac.uk/main/undergraduate/studies/facilities/mathsbase-mathshub",
     "date": "2024-09-01",
     "dateText": "2023-2024 Semester 1",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "pinned": true,
     "id": 1
   },
@@ -22,7 +22,7 @@
     "courseUrl": "https://sites.google.com/view/count-me-in",
     "date": "2024-07-01",
     "dateText": "2023 Summer",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 2
   },
   {
@@ -30,7 +30,7 @@
     "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath10069.htm",
     "date": "2023-01-01",
     "dateText": "2022-2023 Semester 2",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 3
   },
   {
@@ -38,7 +38,7 @@
     "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath08071.htm",
     "date": "2022-09-01",
     "dateText": "2022-2023 Semester 1",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 4
   },
   {
@@ -46,7 +46,7 @@
     "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath10074.htm",
     "date": "2022-09-01",
     "dateText": "2022-2023 Semester 1",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 5
   },
   {
@@ -54,7 +54,7 @@
     "courseUrl": "http://www.drps.ed.ac.uk/22-23/dpt/cxmath10069.htm",
     "date": "2022-01-01",
     "dateText": "2021-2022 Semester 2",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 6
   },
   {
@@ -62,7 +62,7 @@
     "courseUrl": "http://www-test.drps.ed.ac.uk/20-21/dpt/cxmath08074.htm",
     "date": "2021-09-01",
     "dateText": "2021-2022 Semester 1",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 7
   },
   {
@@ -70,7 +70,7 @@
     "courseUrl": "http://www-test.drps.ed.ac.uk/20-21/dpt/cxmath10068.htm",
     "date": "2021-09-01",
     "dateText": "2021-2022 Semester 1",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 8
   },
   {
@@ -78,7 +78,7 @@
     "courseUrl": "http://www-test.drps.ed.ac.uk/20-21/dpt/cxmath08064.htm",
     "date": "2020-01-01",
     "dateText": "2020-2021 Semester 2",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 9
   },
   {
@@ -86,7 +86,7 @@
     "courseUrl": "https://teaching.maths.ed.ac.uk/main/undergraduate/studies/facilities/mathsbase-mathshub",
     "date": "2020-01-01",
     "dateText": "2020-2021 Semester 2",
-    "location": "Edinburgh",
+    "location": "University of Edinburgh",
     "id": 10
   }
 ]

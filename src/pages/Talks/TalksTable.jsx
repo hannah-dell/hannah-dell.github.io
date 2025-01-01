@@ -1,24 +1,11 @@
 import data from '../../data/talks.json';
+import { splitByName } from '../../utils/dataUtils';
 import Table from '../../components/Table';
 
 export default function TalksTable(props) {
 
   data.sort((a, b) => new Date(b.date) - new Date(a.date));
   const newData = props.pinnedOnly ? data.filter(item => item.pinned) : data;
-
-  const splitByName = (data) => {
-    const names = {}
-
-    data.forEach(item => {
-    if (!names[item.name]) {
-      names[item.name] = [];
-    }
-
-    names[item.name].push(item);
-  });
-
-  return Object.values(names);
-  }
 
   const generateTableRows = (data, isHeading) => data.map(item => {
     return (
@@ -29,14 +16,14 @@ export default function TalksTable(props) {
           </td>
         }
         <td>
-          {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
-        </td>
-        <td>
           {item.seminarUrl ? (
             <a href={item.seminarUrl} target="_blank" rel="noopener noreferrer">{item.seminarName}</a>
           ) : (
             item.seminarName
           )}
+        </td>
+        <td>
+          {new Date(item.date).toLocaleString("en-GB", { year: "numeric", month: "long" })}
         </td>
         <td>
           {item.location}
@@ -52,7 +39,6 @@ export default function TalksTable(props) {
     props.pinnedOnly
       ? <Table content={generateTableRows(newData, false)} heading={props.heading} />
       : 
-        splitByName(newData).map(itemGroup => <Table content={generateTableRows(itemGroup, true)} heading={itemGroup[0].name} />)
-      
+        splitByName(newData, "name").map((itemGroup, index) => <Table key={index} content={generateTableRows(itemGroup, true)} heading={itemGroup[0].name} />)
   )
 }

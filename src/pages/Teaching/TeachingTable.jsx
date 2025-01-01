@@ -1,4 +1,5 @@
 import data from '../../data/teaching.json';
+import { splitByName } from '../../utils/dataUtils';
 import Table from '../../components/Table';
 
 export default function TeachingTable(props) {
@@ -7,7 +8,7 @@ export default function TeachingTable(props) {
   
   const newData = props.pinnedOnly ? data.filter(item => item.pinned) : data;
 
-  const tableRows = newData.map(item => {
+  const generateTableRows = (data, isHeading) => data.map(item => {
     return (
       <tr key={item.id}>
         <td>
@@ -22,14 +23,19 @@ export default function TeachingTable(props) {
         <td>
           {item.dateText}
         </td>
-        <td>
-          {item.location}
-        </td>
+        {!isHeading && 
+          <td>
+            {item.location}
+          </td>
+        }
       </tr>
     )
   })
 
   return (
-    <Table content={tableRows} heading={props.heading} />
+    props.pinnedOnly
+      ? <Table content={generateTableRows(newData, false)} heading={props.heading} />
+      : 
+        splitByName(newData, "location").map((itemGroup, index) => <Table key={index} content={generateTableRows(itemGroup, true)} heading={itemGroup[0].location} />)
   )
 }
