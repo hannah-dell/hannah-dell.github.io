@@ -23,6 +23,7 @@ export default function Navbar() {
           <Link 
             to={`${heading.path.toLowerCase()}`}
             className="text-headingYellow no-underline hover:text-hoverYellow transition duration-300"
+            alt={heading.name}
           >
             {heading.shortName}
           </Link>
@@ -37,6 +38,7 @@ export default function Navbar() {
           <Link
             to="/"
             className="text-xl text-headingYellow no-underline hover:text-hoverYellow transition duration-300 pr-4 py-2"
+            alt="Home"
           >
             {homeName}
           </Link>
@@ -46,6 +48,7 @@ export default function Navbar() {
           <button 
             className="text-headingYellow hover:text-hoverYellow transition duration-300"
             onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
+            alt="Open Navbar"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />

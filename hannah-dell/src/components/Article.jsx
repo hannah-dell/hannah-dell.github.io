@@ -20,6 +20,7 @@ export default function Article(props) {
               {props.isCollapsible && 
                 <button 
                   className="article-toggle" 
+                  alt="Show/Hide Abstract"
                   onClick={props.handleClick}>
                   {props.isOpen 
                     ? <FontAwesomeIcon icon={faChevronUp} size="2xs" className="icon-style" /> 
