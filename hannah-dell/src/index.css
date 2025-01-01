@@ -103,7 +103,7 @@ table tr:nth-child(even) {
 
 .article-container {
   width: 100%;
-  min-height: 80px;
+  min-height: 60px;
   padding: 8px 4px 4px 8px;
   margin-top: 20px;
   border: 1px solid black;

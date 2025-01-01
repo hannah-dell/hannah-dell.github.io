@@ -46,7 +46,6 @@ export default function Article(props) {
         <div className="article-bottom">
           <div className="article-details">
             {props.item.collaborators && <h4><em>Joint with {props.item.collaborators}</em></h4>}
-            <h5>{props.item.description}</h5>
           </div>
           {props.isOpen &&
             <div className="article-abstract-container">
