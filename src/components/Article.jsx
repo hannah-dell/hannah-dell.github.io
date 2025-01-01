@@ -50,7 +50,6 @@ export default function Article(props) {
           </div>
           {props.isOpen &&
             <div className="article-abstract-container">
-              <h5 className="article-abstract-heading">Abstract</h5>
               <MathJaxContext>
                 <div
                   className="article-abstract"
