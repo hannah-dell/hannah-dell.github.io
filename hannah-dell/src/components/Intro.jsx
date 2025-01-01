@@ -1,4 +1,4 @@
-import { MathJax, MathJaxContext } from 'better-react-mathjax';
+import { MathJaxContext } from 'better-react-mathjax';
 import { useEffect } from 'react';
 
 import data from '../data/pages.json';
