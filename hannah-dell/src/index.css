@@ -65,6 +65,15 @@ nav li {
   padding-left: 0;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
 .img-me {
   float: right;
   margin-left: 1rem;
