@@ -1,7 +1,24 @@
-export default function Edit() {
+import { Link } from 'react-router-dom';
+
+import Table from '../../components/Table';
+
+export default function Edit(props) {
+
+  const tableRows = props.editOptions.map(option => {
+    return (
+      <tr key={option}>
+        <td>
+          <Link 
+              to={`./${option.toLowerCase()}`}
+          >
+            {option}
+          </Link>
+        </td>
+      </tr>
+    )
+  })
+
   return (
-    <div className="body-container pt-4">
-      <p>Hello World</p>
-    </div>
-  )
+    <Table content={tableRows} heading="Edit Mode" />
+  );
 }
