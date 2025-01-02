@@ -198,7 +198,7 @@ nav a:hover {
 .hamburger-closed {
   max-height: 0;
   opacity: 0;
-} */
+}
 
 table {
   width: 100%;
@@ -217,8 +217,9 @@ table tr:nth-child(even) {
   background-color: #ffffff;
 }
 
-.table-title {
-  margin-bottom: 20px;
+.table-title, .article-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .table-button {
@@ -232,7 +233,6 @@ table tr:nth-child(even) {
   width: 100%;
   padding: 10px 0;
 }
-
 
 .article-container {
   width: 100%;
@@ -257,7 +257,6 @@ table tr:nth-child(even) {
 }
 
 .article-heading {
-  font-size: 1.125rem;
   padding-left: 10px;
   
 }
