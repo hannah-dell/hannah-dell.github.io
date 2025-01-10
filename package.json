@@ -1,6 +1,7 @@
 {
   "name": "hannah-dell",
   "private": true,
+  "homepage": "https://hannah-dell.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
